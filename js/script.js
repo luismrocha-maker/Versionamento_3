@@ -16,3 +16,9 @@ function verificarHabitos() {
         resultado.innerHTML = "Atenção! Você pode melhorar alguns hábitos.";
     }
 }
+
+let botaoTema = document.getElementById("botaoTema");
+
+botaoTema.onclick = function() {
+    document.body.classList.toggle("escuro");
+};

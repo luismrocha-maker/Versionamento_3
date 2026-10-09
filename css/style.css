@@ -172,3 +172,43 @@ footer {
         width: 100%;
     }
 }
+
+#botaoTema {
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botaoTema img {
+    width: 25px;
+    height: 25px;
+}
+
+body.escuro {
+    background: #222;
+    color: white;
+}
+
+body.escuro .card,
+body.escuro .teste {
+    background: #333;
+    color: white;
+}
+
+body.escuro header,
+body.escuro footer {
+    background: #111;
+}
+
+body.escuro .card {
+    box-shadow: 0 2px 6px #111;
+}
+
+body.escuro .link,
+body.escuro button {
+    background: #444;
+    color: white;
+}
