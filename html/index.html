@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valdenilson é 10</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Vida de Estudante</h2>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#teste">Teste de Hábitos</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <div>
+            <h1>Cuide da sua rotina, melhore seus estudos</h1>
+            <p>
+                Ter hábitos saudáveis ajuda a estudar melhor, ter mais
+                disposição e cuidar da saúde no dia a dia.
+            </p>
+            <a href="#dicas" class="link">Ver dicas</a>
+        </div>
+
+        <div class="imagem"></div>
+    </section>
+
+    <section id="dicas">
+        <h2>Dicas para uma vida melhor</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Sono</h3>
+                <p>Dormir bem ajuda na memória e na concentração durante as aulas.</p>
+            </div>
+
+            <div class="card">
+                <h3>Alimentação</h3>
+                <p>Comer alimentos variados ajuda a ter energia durante o dia.</p>
+            </div>
+
+            <div class="card">
+                <h3>Estudos</h3>
+                <p>Organize os horários e faça pequenas pausas enquanto estuda.</p>
+            </div>
+
+            <div class="card">
+                <h3>Tecnologia</h3>
+                <p>Evite ficar muito tempo no celular, principalmente antes de dormir.</p>
+            </div>
+
+            <div class="card">
+                <h3>Atividade física</h3>
+                <p>Caminhar, brincar ou praticar esportes ajuda na disposição.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="teste" class="teste">
+        <h2>Teste de Hábitos</h2>
+        <p>Marque as opções que fazem parte da sua rotina.</p>
+
+        <label>
+            <input type="checkbox" class="habito">
+            Durmo pelo menos 7 horas por noite.
+        </label>
+
+        <label>
+            <input type="checkbox" class="habito">
+            Faço pausas durante os estudos.
+        </label>
+
+        <label>
+            <input type="checkbox" class="habito">
+            Pratico alguma atividade física.
+        </label>
+
+        <label>
+            <input type="checkbox" class="habito">
+            Evito usar o celular antes de dormir.
+        </label>
+
+        <button onclick="verificarHabitos()">Ver resultado</button>
+
+        <p id="resultado"></p>
+    </section>
+
+    <footer>
+        <p>Valdenilson,vc é o melhor professor (:>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
